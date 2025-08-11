@@ -7,7 +7,7 @@ import { useState, useRef, Suspense } from "react";
 import type { Points as PointsType } from "three";
 
 export const StarBackground = (props: PointsProps) => {
-  const ref = useRef<PointsType | null>(null);
+  const ref = useRef(null);
   const [sphere] = useState(() =>
     random.inSphere(new Float32Array(5000), { radius: 1.2 })
   );
