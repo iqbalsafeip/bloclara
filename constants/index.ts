@@ -1,4 +1,7 @@
+import { AiOutlineLogin } from "react-icons/ai";
+import { BsTwitterX } from "react-icons/bs";
 import { FaYoutube, FaFacebook } from "react-icons/fa";
+import { MdDashboard } from "react-icons/md";
 import {
   RxDiscordLogo,
   RxGithubLogo,
@@ -89,20 +92,17 @@ export const SKILL_DATA = [
 ] as const;
 
 export const SOCIALS = [
-  {
-    name: "Instagram",
-    icon: RxInstagramLogo,
-    link: "https://instagram.com",
-  },
-  {
-    name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
-  },
+
+
   {
     name: "Twitter",
-    icon: RxTwitterLogo,
-    link: "https://twitter.com",
+    icon: BsTwitterX,
+    link: "https://x.com/0xmedusa_",
+  },
+  {
+    name: "Dashboard",
+    icon: AiOutlineLogin,
+    link: "http://localhost:3001",
   },
 ] as const;
 
@@ -286,40 +286,23 @@ export const FOOTER_DATA = [
     title: "Community",
     data: [
       {
-        name: "YouTube",
-        icon: FaYoutube,
-        link: "https://youtube.com",
+        name: "X",
+        icon: BsTwitterX,
+        link: "https://x.com/0xmedusa_",
       },
-      {
-        name: "GitHub",
-        icon: RxGithubLogo,
-        link: "https://github.com",
-      },
-      {
-        name: "Discord",
-        icon: RxDiscordLogo,
-        link: "https://discord.com",
-      },
+     
     ],
   },
   {
     title: "Social Media",
     data: [
+    
       {
-        name: "Instagram",
-        icon: RxInstagramLogo,
-        link: "https://instagram.com",
-      },
-      {
-        name: "Twitter",
+        name: "X",
         icon: RxTwitterLogo,
-        link: "https://twitter.com",
+        link: "https://x.com/0xmedusa_",
       },
-      {
-        name: "Linkedin",
-        icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
-      },
+      
     ],
   },
   {
@@ -346,17 +329,14 @@ export const FOOTER_DATA = [
 
 export const NAV_LINKS = [
   {
-    title: "About me",
+    title: "About Medusa",
     link: "#about-me",
   },
   {
-    title: "Skills",
+    title: "White Paper",
     link: "#skills",
   },
-  {
-    title: "Projects",
-    link: "#projects",
-  },
+  
 ] as const;
 
 export const LINKS = {
