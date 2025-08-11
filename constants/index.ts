@@ -102,7 +102,7 @@ export const SOCIALS = [
   {
     name: "Dashboard",
     icon: AiOutlineLogin,
-    link: "http://localhost:3001",
+    link: "http://dashboard.medusatech.pro",
   },
 ] as const;
 

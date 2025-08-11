@@ -37,7 +37,7 @@ export const HeroContent = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               Plug Into Open AI Liquidity.
             </span>{" "}
-            Powered by Jupiter. Built on Solana.
+            
           </span>
         </motion.div>
 
@@ -45,12 +45,14 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-3 max-w-[600px]"
         >
-          Medusa is a decentralized AI ecosystem built on the Solana blockchain. It offers a permissionless infrastructure for AI model deployment and access, integrated with a DeFi liquidity layer via Jupiter. Medusa aims to democratize AI through open models, incentivized contributions, and seamless economic flows between users, providers, and data curators.
+          Medusa is a decentralized AI ecosystem built on the Solana blockchain. It offers a permissionless infrastructure for AI model deployment and access, integrated with a DeFi liquidity layer. Medusa aims to democratize AI through open models, incentivized contributions, and seamless economic flows between users, providers, and data curators.
         </motion.p>
 
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          href="https://drive.google.com/file/d/13kkqxZMtPM6pAubVEwCaBkCFCkypGHNQ/view?usp=sharing"
+          target="_blank"
         >
           White Paper
         </motion.a>
