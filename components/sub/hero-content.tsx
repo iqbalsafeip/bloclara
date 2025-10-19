@@ -45,7 +45,7 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-3 max-w-[600px]"
         >
-          Medusa is a decentralized AI ecosystem built on the Solana blockchain. It offers a permissionless infrastructure for AI model deployment and access, integrated with a DeFi liquidity layer. Medusa aims to democratize AI through open models, incentivized contributions, and seamless economic flows between users, providers, and data curators.
+          Bloclara is a decentralized AI ecosystem built on the Solana blockchain. It offers a permissionless infrastructure for AI model deployment and access, integrated with a DeFi liquidity layer. Bloclara aims to democratize AI through open models, incentivized contributions, and seamless economic flows between users, providers, and data curators.
         </motion.p>
 
         <motion.a

@@ -18,7 +18,7 @@ export const SkillText = () => {
       >
         <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
         <h1 className="Welcome-text text-[13px]">
-          Think better with Medusa
+          Think better with Bloclara
         </h1>
       </motion.div>
 
@@ -26,14 +26,14 @@ export const SkillText = () => {
         variants={slideInFromLeft(0.5)}
         className="text-[30px] text-white font-medium mt-[10px] text-center mb-[15px] max-w-[600px]"
       >
-        Connect wallet - Register model - Host worker & poll tasks - Execute and submit results - Earn $MEDUSA
+        Connect wallet - Register model - Host worker & poll tasks - Execute and submit results - Earn $Bloclara
       </motion.div>
 
       <motion.div
         variants={slideInFromRight(0.5)}
         className=" text-[20px] font-thin text-gray-200 mb-10 mt-[10px] text-center"
       >
-        Own, Train, and Earn — Medusa Brings AI to Web3.
+        Own, Train, and Earn — Bloclara Brings AI to Web3.
       </motion.div>
     </div>
   );

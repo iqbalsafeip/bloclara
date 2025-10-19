@@ -97,12 +97,12 @@ export const SOCIALS = [
   {
     name: "Twitter",
     icon: BsTwitterX,
-    link: "https://x.com/0xmedusa_",
+    link: "https://x.com/0xBloclara_",
   },
   {
     name: "Dashboard",
     icon: AiOutlineLogin,
-    link: "http://dashboard.medusatech.pro",
+    link: "http://dashboard.Bloclaratech.pro",
   },
 ] as const;
 
@@ -288,7 +288,7 @@ export const FOOTER_DATA = [
       {
         name: "X",
         icon: BsTwitterX,
-        link: "https://x.com/0xmedusa_",
+        link: "https://x.com/0xBloclara_",
       },
      
     ],
@@ -300,7 +300,7 @@ export const FOOTER_DATA = [
       {
         name: "X",
         icon: RxTwitterLogo,
-        link: "https://x.com/0xmedusa_",
+        link: "https://x.com/0xBloclara_",
       },
       
     ],
@@ -329,7 +329,7 @@ export const FOOTER_DATA = [
 
 export const NAV_LINKS = [
   {
-    title: "About Medusa",
+    title: "About Bloclara",
     link: "#about-me",
   },
   {

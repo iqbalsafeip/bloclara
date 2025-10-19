@@ -45,7 +45,7 @@ export const Encryption = () => {
 
       <div className="absolute z-[20] bottom-[10px] px-[5px]">
         <div className=" text-[20px] font-thin font-medium text-center text-gray-300">
-          Not Just AI. Not Just DeFi. This is Medusa.
+          Not Just AI. Not Just DeFi. This is Bloclara.
         </div>
       </div>
 

@@ -32,7 +32,7 @@ export const Navbar = () => {
 
             />
           </motion.div>
-          {/* <div className="hidden md:flex md:font-bold ml-[10px] text-gray-300">MEDUSA</div> */}
+          {/* <div className="hidden md:flex md:font-bold ml-[10px] text-gray-300">Bloclara</div> */}
         </Link>
 
         {/* <div className="hidden md:flex  h-full flex-row items-center justify-between md:mr-20">
@@ -46,7 +46,7 @@ export const Navbar = () => {
                 {link.title}
               </Link>
             ))} */}
-        {/* <div className="flex md:font-bold text-lg text-gray-300">MEDUSA</div> */}
+        {/* <div className="flex md:font-bold text-lg text-gray-300">Bloclara</div> */}
         {/*            
           </div>
         </div> */}
