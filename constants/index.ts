@@ -288,7 +288,7 @@ export const FOOTER_DATA = [
       {
         name: "X",
         icon: BsTwitterX,
-        link: "https://x.com/0xBloclara_",
+        link: "https://dashboard.bloclara.xyz/login",
       },
      
     ],
@@ -300,7 +300,7 @@ export const FOOTER_DATA = [
       {
         name: "X",
         icon: RxTwitterLogo,
-        link: "https://x.com/0xBloclara_",
+        link: "https://dashboard.bloclara.xyz/login",
       },
       
     ],
