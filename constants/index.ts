@@ -97,12 +97,12 @@ export const SOCIALS = [
   {
     name: "Twitter",
     icon: BsTwitterX,
-    link: "https://x.com/0xBloclara_",
+    link: "https://x.com/BioclaraSpace",
   },
   {
     name: "Dashboard",
     icon: AiOutlineLogin,
-    link: "http://dashboard.Bloclaratech.pro",
+    link: "https://dashboard.bloclara.xyz/login",
   },
 ] as const;
 
